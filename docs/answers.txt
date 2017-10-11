@@ -1,0 +1,47 @@
+a)
+
+git push origin master
+To https://github.com/ZachPell/Assignment1.git
+   fbdbe93..6907799  master -> master
+   
+b)
+
+git rev-list --all --count
+9
+
+c)
+
+git log --follow .gitignore
+Date:   Wed Sep 27 16:31:42 2017
+
+d)
+
+cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+e)
+
+Branches can be used to develop features isolated from each other. 
+They can also help when multiple people are working on a project because it allows
+each person to work on a different branch without affecting each other's work.
+
+f)
+
+git status shows you what is ready to commit, such as changes that have been
+staged for commit or unstaged, while git log just shows a history of the commits.
+
+g)
+
+git log --follow Weapon.h
+
+h)
+
+git log --all --grep=file
+
+i)
+
+(I)  Inheritance is when a class gains the properties of a another "parent" class.
+(II) Polymorphism means that each derived class can have its own function definitions
+     that can be referred to by the parent class.
+(III)Ecapsulation is the bundling of data and methods to hide it from unauthorized users
+     and only allow specified operations on hidden members of the class.
