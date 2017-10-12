@@ -43,5 +43,11 @@ i)
 (I)  Inheritance is when a class gains the properties of a another "parent" class.
 (II) Polymorphism means that each derived class can have its own function definitions
      that can be referred to by the parent class.
-(III)Ecapsulation is the bundling of data and methods to hide it from unauthorized users
+(III)Encapsulation is the bundling of data and methods to hide it from unauthorized users
      and only allow specified operations on hidden members of the class.
+     
+ Question 7: It is using polymorphism because all of the weapons inherit from the Weapons
+ class. They each inherit those properties but are implemented differently, such as each having
+ its own implementation of the hit(armor) function. It is also using encapsulation because 
+ the data and functions are bundled together into classes that prevent unauthorized access to
+ this data, such as changing the way that damage is calculated for a weapon.
